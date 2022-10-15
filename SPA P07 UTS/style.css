@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+  background-color: green;
+}
+*{
+  scroll-behavior: smooth;
+}
+.navigasi{
+  height: 80px;
+}
+.grid-header{
+  grid-area: header;
+  background: orange;
+  width: 100%;
+}
+.logo{
+  font-size: 35px;
+  font-family: 'Satisfy';
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  display: inline-block;
+  line-height: 30px;
+}
+ul{
+  margin-right: 20px;
+  float: right;
+  display: inline-block;
+  margin-left: 40px;
+}
+li{
+  list-style: none;
+  font-family: Verdana;
+  float: left;
+  padding: 5px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: lighter;
+  color: white;
+}
+
+.muncul{
+  background-color: #7fdbea;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 5px;
+  position: relative;
+  display: absolute;
+}
+#about , #contact{
+  margin-bottom: 5px;
+  text-align: center;
+}
+#about{
+  font-family: Ubuntu;
+}
+#quest{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#quest > .tombol1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.tombol{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.115);
+  color: orange;
+  overflow: hidden;
+  position: relative;
+}
+.tombol i{
+  line-height: 70px;
+  font-size: 30px;
+  transition: 0.2s linear;
+}
+ .tombol1{
+  margin-top: 20px;
+  background-color: orange;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.grid-main{
+  grid-area: main;
+  box-sizing: border-box;
+  background: orange;
+  width: 100%;
+}
+marquee{
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 45px;
+  font-family: 'Ubuntu', cursive;
+}
+.item2, .item3{
+  text-align: center;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+}
+.grid-footer{
+  grid-area: footer;
+  height: 100px;
+  background-color: green;
+  color: white;
+  position: relative;
+}
+.item1 > img{
+  width: 6cm;
+  height: 6cm;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  border: 1px solid #0000;
+  position: block;
+}
+.namabawah{
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+.main{
+  justify-content: center;
+}
+@media only screen and (min-width: 460px) and (max-width:600px) {
+  .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px){
+ .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+  
+}
+@media only screen and (min-width: 768px){
+.grid-header{
+  width: 100%;
+}
+  .grid-main{
+    width: 100%;
+  }
+  ul{
+    margin-left: 555px;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+@media only screen and (min-width: 992px){
+  .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px){
+   .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+ .container {
+  width: 1000px;
+  height: 500px;
+  border: 2px solid #000000
+ }
+ img {
+  width: 500x;
+  height: 500px;
+ }
+}
+
+}
