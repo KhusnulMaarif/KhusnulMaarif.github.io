@@ -1,0 +1,43 @@
+body {
+     background-color: green;
+   }
+ 
+   h1 {
+     text-align: center;;
+   }
+   
+   td,
+   th {
+     border: 2px solid  blue;
+     text-align: center;
+     padding: 10px;
+   }
+   
+   td:hover {
+     background-color: orangered;
+   }
+    
+   .ndase-tabel {
+     background-color: orangered;
+   }
+   
+   .tabel {
+     border-collapse: collapse;
+     width: 100%;
+   }
+   
+   .ubah {
+     background-color: yellowgreen;
+   }
+   
+   .ubah:hover {
+     background-color: aquamarine;
+   }
+   
+   .apus {
+     background-color: azure;
+   }
+   
+   .apus:hover {
+     background-color: aquamarine;
+   }
